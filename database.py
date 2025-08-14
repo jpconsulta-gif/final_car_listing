@@ -3,10 +3,10 @@ import mysql.connector
 class Database:
     def connect(self):
         conn = mysql.connector.connect(
-            host='auth-db1873.hstgr.io',
-            database='u841289135_data_listing',
-            user='u841289135_data_listing',
-            password='Data_listing2025@',
+            host='auth-db2046.hstgr.io',
+            database='u105557784_consultajaime',
+            user='u105557784_consultajaime',
+            password='Consultajaime2025@',
             port=3306
         )
         return conn
